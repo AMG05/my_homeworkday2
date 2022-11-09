@@ -77,8 +77,8 @@ print(erik_hometown)
 erik_lottery_numbers = users["Erik"]["lottery_numbers"]
 print(erik_lottery_numbers)
 
-# Avril_pet = users["Avril"]["pets"]["species"]
-# print(Avril_pet)
+Avril_pet = users["Avril"]["pets"][0]["species"]
+print(Avril_pet)
 
 # temp = min(users.values())
 # res = [number for numbers in users if users[number] == temp]
@@ -89,13 +89,12 @@ print(Jonathan_new)
 erik_hometown_new = users["Erik"]["home_town"] = "Edinburgh"
 print(erik_hometown_new)
 
-# users["Erik"]["pets"]
+# users["Erik"]["pets"] = "fluffy"
 
-users["Anne"] = "name"
+users["Anne"] = {}
 print(users)
 
-# meals["supper"] = "pancakes"
-# print(meals)
+
 
 
 
