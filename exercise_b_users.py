@@ -80,16 +80,26 @@ print(erik_lottery_numbers)
 Avril_pet = users["Avril"]["pets"][0]["species"]
 print(Avril_pet)
 
-# temp = min(users.values())
-# res = [number for numbers in users if users[number] == temp]
+sorted(users)["Erik"]["lottery_numbers"][0]
 
-Jonathan_new = users["lottery_numbers"] = 7
+even_numbers =[]
+for number in users["Avril"]["lottery_numbers"]:
+  if number %2 == 0:
+    even_numbers.append(number)
+    print(even_numbers)
+
+Jonathan_new = users["Erik"]["lottery_numbers"].append(7)
 print(Jonathan_new)
 
 erik_hometown_new = users["Erik"]["home_town"] = "Edinburgh"
 print(erik_hometown_new)
 
-# users["Erik"]["pets"] = "fluffy"
+new_pet ={
+  "name":"Fluffy"
+  "species":"dog"
+}
+
+users["Erik"]["pets"].append(new_pet)
 
 users["Anne"] = {}
 print(users)
